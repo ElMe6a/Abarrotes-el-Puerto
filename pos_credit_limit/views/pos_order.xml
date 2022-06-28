@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+
+        <record id="pos_order_view_inherit" model="ir.ui.view">
+            <field name="name">pos_order_view_inherit</field>
+            <field name="model">pos.order</field>
+            <field name="inherit_id" ref="point_of_sale.view_pos_pos_form"/>
+            <field name="arch" type="xml">
+                <field name="partner_id" position="after">
+                    <field name="paid_using_credit" invisible="1"/>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</odoo>

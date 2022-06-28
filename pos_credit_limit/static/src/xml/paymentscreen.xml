@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+<!--    <t t-name="payment_screen_inherit" t-inherit="point_of_sale.PaymentScreen"-->
+<!--        t-inherit-mode="extension" owl="1">-->
+<!--&lt;!&ndash;        Adding the residue amount along with customer name&ndash;&gt;-->
+<!--         <xpath expr="//span[hasclass('js_customer_name')]" position="replace">-->
+<!--             <span class="js_customer_name">-->
+<!--                <t t-if="env.pos.get_client()">-->
+<!--                    <t t-esc="env.pos.get_client().name"/>-->
+<!--                </t>-->
+<!--                <t t-if="!env.pos.get_client()">-->
+<!--                    Customer-->
+<!--                </t>-->
+<!--            </span>-->
+<!--         </xpath>-->
+
+<!--&lt;!&ndash;        Pay Debt button&ndash;&gt;-->
+<!--        <xpath expr="//div[hasclass('customer-button')]" position="after">-->
+<!--            <div class="customer-button">-->
+<!--                <div class="button highlight" t-on-click="payDebt()">-->
+<!--                    <i class="fa fa-money"></i>-->
+<!--                    <span>Pay Debt<t t-esc="'(' + env.pos.format_currency(env.pos.get_client().credit) + ')'"/> </span>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </xpath>-->
+
+<!--    </t>-->
+
+</templates>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="credit_journal" model="account.journal">
+            <field name="name">Credit</field>
+            <field name="code">CRT</field>
+            <field name="type">cash</field>
+            <field name="active">TRUE</field>
+            <field name="pos_credit">FALSE</field>
+        </record>
+
+    </data>
+</odoo>
